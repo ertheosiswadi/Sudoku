@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sudoku</string>
+    <string name="submitText">SUBMIT</string>
+    <string name="playAgainText">Play Again</string>
+    <string name="pastelRedColor">#ff6961</string>
+    <string name="submit_ok_button_text">Affirmative</string>
+    <string name="pastelOrangeColor">#ffb347</string>
+</resources>

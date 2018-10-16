@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.siswadi.sudoku.GameActivity">
+
+    <!--
+    <com.siswadi.sudoku.View.BoardGridView
+        android:id="@+id/buttonGridView"
+        android:columnWidth="2dp"
+        android:numColumns="9"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boardGridView" />
+-->
+    <TextView
+        android:id="@+id/stopwatchView"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="8dp"
+
+        android:fontFamily="@font/gotham_bold"
+        android:text="00:00:000"
+        android:textSize="45dp"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/surrenderButton"
+        app:layout_constraintStart_toStartOf="parent" />
+        <!--
+        app:layout_constraintTop_toBottomOf="@id/submitButton"
+        -->
+    <Button
+        android:id="@+id/surrenderButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+
+        android:fontFamily="@font/gotham_bold"
+        android:text="udah capek"
+
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/stopwatchView"
+        />
+
+
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="85dp"
+        android:background="#707070"
+        android:fontFamily="@font/gotham_bold"
+        android:text="TOUCH BOARD TO PLAY"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonGridView" />
+
+    <GridView
+        android:id="@+id/buttonGridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="140dp"
+        android:layout_marginTop="35dp"
+
+        android:horizontalSpacing="2dp"
+        android:numColumns="9"
+        android:verticalSpacing="2dp"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boardGridView" />
+
+<!--
+    <com.siswadi.sudoku.View.BoardGridView
+        android:id="@+id/boardGridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnWidth="0dp"
+        android:numColumns="9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        -->
+    <GridView
+        android:id="@+id/boardGridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:columnWidth="0dp"
+        android:numColumns="9"
+        app:layout_constraintBottom_toTopOf="@id/buttonGridView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

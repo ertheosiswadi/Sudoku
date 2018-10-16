@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.siswadi.sudoku.View.CustomCellTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/box"
+    android:gravity="center"
+    android:textAlignment="center" />
+
+    <!--<com.siswadi.sudoku.View.FormatCellView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cell" />-->
+<!--
+<EditText
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/cell"/>
+    -->
+
+
+   <!--
+        <com.siswadi.sudoku.View.BaseCell xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cell" />
+-->
